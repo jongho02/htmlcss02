@@ -29,6 +29,8 @@ body {
   }
 h1 > a {color: green;
 text-decoration: none;}
+li > a {color: olive;
+text-decoration: none;}
   
 
 
