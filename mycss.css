@@ -1,0 +1,37 @@
+html,body
+    {
+    height:100%;
+    color: olive;
+  }
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+
+body {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+h1 > a {color: green;
+text-decoration: none;}
+li > a {color: olive;
+text-decoration: none;}
+
+  
+  
