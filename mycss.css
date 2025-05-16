@@ -17,18 +17,20 @@ html,body
     float:right;
     width:22%;
     height:70%;
+    text-align: center;
+    color: black;
   }
   footer{
     clear:both;
   }
 
 body {
-    font-family: "Bodoni Moda", serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-optical-sizing: auto;
     
     font-style: normal;
   }
-h1 > a {color: green;
+h1 > a {color: olive;
 text-decoration: none;}
 li > a {color: olive;
 text-decoration: none;}

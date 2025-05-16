@@ -12,16 +12,37 @@
         ul.menu{ 
             list-style: none;
             text-align: center;
-            border-top: 1px solid green;
-            border-bottom: 1px solid green;
+            border-top: 1px solid olivedrab;
+            border-bottom: 1px solid olivedrab;
             padding: 10px 0;
         }
 
         ul.menu li{
         display: inline;
         text-transform: uppercase;
-        padding: 0 10px;
-        letter-spacing: 10px;
+        padding: 0 8px;
+        letter-spacing: 8px;
+        }
+
+        ul.sidemenu {
+            list-style: none;
+            padding: 0 3px;
+            letter-spacing: 3px;
+        }
+        ul.sidemenu li{
+            text-align: left;
+        }
+
+        ul.undermenu{
+            list-style: none;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 0 3px;
+            letter-spacing: 5px;
+        }
+
+        ul.undermenu li{
+            display: inline;
         }
     </style>
     
@@ -33,17 +54,17 @@
     
     <nav>
     <ul class="menu">
-        <li><a href="#">Home</a0></li>
+        <li><a href="index.html">Home</a0></li>
         <li><a href="#">News</a></li>
         <li><a href="#">My Page</a></li>
-        <li><a href="signin.html" target="_blank">Sign in</a></li>
-        <li><a href="#">Sign up</a></li>
+        <li><a href="signin.html" target="iframe1">Sign in</a></li>
+        <li><a href="signout.html" target="iframe1">Sign up</a></li>
     </ul>
    </nav>
 
    <aside id="left">
     <h4>카테고리</h4>
-    <ul>
+    <ul class="sidemenu">
         <li><a href="apple.html" target="iframe1">사과</a></li>
         <li><a href="orange.html" target="iframe1">오렌지</a></li>
         <li><a href="banana.html" target="iframe1">바나나</a></li>
@@ -59,15 +80,16 @@
 
 
    <aside id="right">
-    <h4>광고</h4>
+    <h2>광고</h2>
     <p>오늘 수확한 과일을</p>
-    <p>바로 식탁에서</p>
+    <p>바로 식탁에서!</p>
     <img src="image/delivery.jpg" width="70%">
     <img src="image/farm.jpg" width="70%">
     </aside>
 
     <footer>
-     <ul>
+     <ul class="undermenu">
+        <li><a href="#">ABOUT US</a></li>
         <li><a href="#">공지사황</a></li>
         <li><a href="#">개인정보처리방침</a></li>
         <li><a href="#">인재채용</a></li>
